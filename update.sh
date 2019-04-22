@@ -1,7 +1,7 @@
 #!/bin/sh -e
 
 HOSTNAME="${HOSTNAME:-"amnesiac"}"
-INTERFACE="${EXT_IF:-"vtnet0"}"
+INTERFACE="${EXT_IF:-"hn0"}"
 PACKAGES="${PACKAGES:-"ca_root_nss sudo bash python"}"
 PUBLIC_KEY="${PUBLIC_KEY:-"https://raw.github.com/mitchellh/vagrant/master/keys/vagrant.pub"}"
 SSH_USER="${SSH_USER:-"vagrant"}"
