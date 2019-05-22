@@ -30,7 +30,7 @@ as bootable CD device.
 
 5. Install FreeBSD.
 
-        zfsinstall -d /dev/ada0
+        zfsinstall -d /dev/da0
 
 8. Stop the VM.
 9. Remove attached ISO
